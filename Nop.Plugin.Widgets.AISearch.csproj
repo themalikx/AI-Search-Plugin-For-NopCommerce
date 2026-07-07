@@ -18,21 +18,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Content\**" />
-    <Compile Remove="Scripts\**" />
-    <EmbeddedResource Remove="Content\**" />
-    <EmbeddedResource Remove="Scripts\**" />
-    <None Remove="Content\**" />
-    <None Remove="Scripts\**" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Remove="logo.png" />
     <None Remove="plugin.json" />
-    <None Remove="Views\PublicInfo.cshtml" />
-    <None Remove="Views\_Configure.AddSlide.cshtml" />
-    <None Remove="Views\_PublicInfo.Slide.cshtml" />
     <None Remove="Views\_ViewImports.cshtml" />
   </ItemGroup>
 
@@ -53,10 +42,7 @@
     <ClearPluginAssemblies Include="$(SolutionDir)\Build\ClearPluginAssemblies.proj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.SemanticKernel" Version="1.77.0" />
-    <PackageReference Include="Microsoft.SemanticKernel.Connectors.Google" Version="1.77.0-alpha" />
-  </ItemGroup>
+  
 
   <ItemGroup>
     <Folder Include="Controllers\" />
