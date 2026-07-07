@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "AI Search",
+  "SystemName": "Widgets.AISearch",
+  "Version": "4.90.4",
+  "SupportedVersions": [ "4.90" ],
+  "Author": "nopCommerce team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.AISearch.dll",
+  "Description": "This plugin allows you to integrate AI-powered search functionality into your store"
+}
